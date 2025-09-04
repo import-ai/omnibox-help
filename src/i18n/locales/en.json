@@ -1,0 +1,48 @@
+{
+  "common": {
+    "next": "Next",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "migration": {
+    "title": "WeChat Account Data Migration",
+    "description": "Due to WeChat Open Platform entity changes, please login with WeChat again to update account identification and recover your historical data",
+    "important_notice": "Important Notice",
+    "notice": {
+      "1": "Please use the same WeChat account to complete two login authorizations",
+      "2": "Do not close the browser or refresh the page during migration",
+      "3": "After migration, the system will automatically update your account identification"
+    },
+    "steps_title": "Migration Steps",
+    "step": {
+      "1": "First login: Use your WeChat account to login, system will record your historical account information",
+      "2": "Second login: Use the same WeChat account to login again, system will record your latest account information",
+      "3": "Confirm migration: System will establish the connection between old and new account information to recover your historical data"
+    },
+    "start": "Start Migration",
+    "bind_old_title": "Step 1: First Login",
+    "bind_old_description": "Please login with your WeChat account, system will record your historical account information",
+    "bind_old_account": "WeChat Login (Record Historical Info)",
+    "bind_new_title": "Step 2: Second Login",
+    "bind_new_description": "Please login again with the same WeChat account, system will record your latest account information",
+    "bind_new_account": "WeChat Login (Record Latest Info)",
+    "start_migration": "Confirm Account Connection",
+    "wechat_auth_failed": "WeChat authorization failed, please try again",
+    "accounts_required": "Please complete both WeChat logins to record account information first",
+    "success": "Account connection established successfully",
+    "failed": "Account connection failed, please try again",
+    "processing": "Processing",
+    "processing_description": "Processing WeChat authorization information, please wait...",
+    "invalid_callback": "Invalid callback parameters",
+    "old_account_bound": "Historical account information recorded successfully",
+    "new_account_bound": "Latest account information recorded successfully",
+    "callback_error": "Authorization callback processing failed",
+    "scan_bind_old": "Scan to Record Historical Info",
+    "scan_bind_new": "Scan to Record Latest Info",
+    "scan_qr_title": "Scan with WeChat",
+    "scan_qr_description": "Open WeChat and scan the QR code above to complete authorization",
+    "refresh_qr": "Refresh QR Code",
+    "qr_generate_failed": "Failed to generate QR code",
+    "qr_expired": "QR code has expired, please regenerate"
+  }
+}

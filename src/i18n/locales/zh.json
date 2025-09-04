@@ -1,0 +1,47 @@
+{
+  "common": {
+    "next": "下一步",
+    "confirm": "确认",
+    "cancel": "取消"
+  },
+  "migration": {
+    "title": "微信账号数据迁移",
+    "description": "由于微信开放平台主体变更，需要您重新登录微信来更新账号识别信息，以便找回历史数据",
+    "important_notice": "重要提示",
+    "notice": {
+      "1": "请使用同一个微信账号完成两次登录授权",
+      "2": "迁移过程中请勿关闭浏览器或刷新页面",
+      "3": "迁移完成后系统将自动更新您的账号识别信息"
+    },
+    "steps_title": "迁移步骤",
+    "step": {
+      "1": "首次登录：使用您的微信账号登录，系统将记录您的历史账号信息",
+      "2": "再次登录：再次使用同一微信账号登录，系统将记录您的新账号信息",
+      "3": "确认迁移：系统将建立新旧账号信息的关联，找回您的历史数据"
+    },
+    "start": "开始迁移",
+    "bind_old_title": "第一步：首次登录",
+    "bind_old_description": "请使用您的微信账号登录，系统将记录您的历史账号信息",
+    "bind_account": "微信登录",
+    "bind_new_title": "第二步：再次登录",
+    "bind_new_description": "请再次使用同一个微信账号登录，系统将记录您的最新账号信息",
+    "start_migration": "确认账号关联",
+    "wechat_auth_failed": "微信授权失败，请重试",
+    "accounts_required": "请先完成两次微信登录记录账号信息",
+    "success": "账号关联建立成功",
+    "failed": "账号关联建立失败，请重试",
+    "processing": "正在处理",
+    "processing_description": "正在处理微信授权信息，请稍候...",
+    "invalid_callback": "无效的回调参数",
+    "old_account_bound": "历史账号信息记录成功",
+    "new_account_bound": "最新账号信息记录成功",
+    "callback_error": "授权回调处理失败",
+    "scan_bind_old": "扫码记录历史信息",
+    "scan_bind_new": "扫码记录最新信息",
+    "scan_qr_title": "请用微信扫码",
+    "scan_qr_description": "打开微信扫一扫，扫描上方二维码完成授权",
+    "refresh_qr": "刷新二维码",
+    "qr_generate_failed": "二维码生成失败",
+    "qr_expired": "二维码已过期，请重新生成"
+  }
+}
