@@ -1,4 +1,4 @@
-# Omnibox Operation
+# Omnibox Help
 
 Operations management platform providing issue feedback and account migration features.
 
@@ -12,9 +12,7 @@ Operations management platform providing issue feedback and account migration fe
 - Next.js 14
 - React 18
 - TypeScript
-- Ant Design 5
 - TailwindCSS
-- React Query
 
 ## Development
 
@@ -45,8 +43,8 @@ NEXT_PUBLIC_APP_NAME=Omnibox Operation
 
 ```bash
 # Build image
-docker build -t omnibox-operation .
+docker build -t omnibox-help .
 
 # Run container
-docker run -p 3000:3000 omnibox-operation
+docker run -p 3000:3000 omnibox-help
 ```

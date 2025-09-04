@@ -1,7 +1,7 @@
 {
-  "name": "omnibox-operation",
+  "name": "omnibox-help",
   "private": true,
-  "description": "Omnibox operation platform for feedback and account migration",
+  "description": "Omnibox help center for feedback and account migration",
   "version": "0.1.4",
   "type": "module",
   "scripts": {
