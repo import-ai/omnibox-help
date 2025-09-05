@@ -1,8 +1,12 @@
 {
   "common": {
+    "back_to_home": "Back to Home",
     "next": "Next",
     "confirm": "Confirm",
     "cancel": "Cancel"
+  },
+  "error": {
+    "title": "Error"
   },
   "migration": {
     "title": "WeChat Account Data Migration",
@@ -44,5 +48,44 @@
     "refresh_qr": "Refresh QR Code",
     "qr_generate_failed": "Failed to generate QR code",
     "qr_expired": "QR code has expired, please regenerate"
+  },
+  "request": {
+    "failed": "Request failed",
+    "bad_request": "Bad request",
+    "unauthorized": "Unauthorized access",
+    "forbidden": "Access forbidden",
+    "not_found": "Resource not found",
+    "internal_server_error": "Internal server error",
+    "unknown_error": "Unknown error occurred"
+  },
+  "feedback": {
+    "title": "Feedback",
+    "form": {
+      "type_label": "Please select your feedback type?",
+      "type_placeholder": "Please select",
+      "type_required": "Please select feedback type",
+      "type_options": {
+        "bug": "Bug Report",
+        "suggestion": "Complaint & Suggestion",
+        "feature": "Feature Request",
+        "other": "Other"
+      },
+      "description_label": "Please describe the issue in detail?",
+      "description_placeholder": "Please input",
+      "description_required": "Please describe the issue in detail",
+      "description_help": "Please provide detailed usage scenarios and necessary screenshots to help us understand your needs and provide support~",
+      "upload_label": "Upload Attachment",
+      "upload_help": "Support jpg, png, gif, pdf, doc, docx formats, max 5MB per file",
+      "upload_button": "Upload",
+      "contact_label": "Please leave your contact information",
+      "contact_placeholder": "Please input",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "success_message": "Feedback submitted successfully! Thank you for your feedback."
+    },
+    "errors": {
+      "file_too_large": "File size must not exceed 5MB",
+      "image_load_failed": "Image failed to load"
+    }
   }
 }
