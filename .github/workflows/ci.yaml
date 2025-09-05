@@ -70,4 +70,4 @@ jobs:
       - name: PR Webhook
         if: github.event_name == 'pull_request'
         run: |
-          curl "${{ secrets.DEV_WEBHOOK_URL }}/pr?module=web&pr=pr-${{ github.event.number }}" -H "Authorization: Bearer ${{ secrets.DEV_WEBHOOK_API_KEY }}"
+          curl "${{ secrets.DEV_WEBHOOK_URL }}/pr?module=help&pr=pr-${{ github.event.number }}" -H "Authorization: Bearer ${{ secrets.DEV_WEBHOOK_API_KEY }}"

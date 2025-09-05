@@ -15,6 +15,10 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       {
+        index: true,
+        element: <FeedbackPage />,
+      },
+      {
         path: 'feedback',
         element: <FeedbackPage />,
       },
