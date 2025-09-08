@@ -1,0 +1,15 @@
+release:
+  name: omnibox-help
+  namespace:
+
+image:
+  repository: ghcr.io/import-ai/omnibox-help
+  tag: main
+
+replicas: 1
+
+app:
+  port: 80
+
+affinity: {}
+nodeSelector: {}
